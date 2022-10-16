@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    font-family: 'Pacifico', cursive;
+}
+
+.container_paragraph{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 0 auto;
+    background-image: url('img/ContactUs.jpg');
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 45vw;
+    justify-content: center;
+    border-radius: 0 0 85% 85% / 30%;
+}
+
+.h1{
+    margin: 0 auto;
+    padding: 0 auto;
+    font-size: 65px;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+.button_header{
+    margin-left: 49vw;
+    text-align: center;
+    position: relative;
+    border-radius: 50%;
+    border-color: solid black;
+    min-width: 90px;
+    cursor: pointer;
+}
+
+.button_header:hover {
+    background-color: #be8f38; 
+    color: white;
+}
+
+button{
+    text-align: center;
+    position: relative;
+    border-radius: 50%;
+    border-color: solid black;
+    min-width: 90px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #be8f38; 
+    color: white;
+}
+
+
+.container_paragraph{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #be8f38;
+    font-weight: bold;
+}

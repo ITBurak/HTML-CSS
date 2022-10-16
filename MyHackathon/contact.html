@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title>Contact</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="h1">Contact Us.</h1>
+            <a href="index.html">
+            <button class="button_header">Home</button>
+            </a>
+        </header>
+    </div> 
+    <main>
+        <form name="contact" method="POST" data-netlify="true">
+            <div class="container_paragraph">
+            <p>
+                <label>Your Name: <input type="text" name="name" /></label>
+            </p>
+            <p>
+                <label>Your Email: <input type="email" name="email" /></label>
+            </p>
+            <p> <label>Your Phone Number: <input type="tel" name="telephone number" /></label>                      
+            </p>
+            <p> <label>Your Age: <input type="text" name="age"/></label>                      
+            </p>
+            <p> <label>Your Date of Birth: <input type="date" name="date of birth" /></label>                
+            </p>
+            <p>Select your gender:</p>
+                <input type="radio" name="gender" value="male"> Male<br>
+                <input type="radio" name="gender" value="female"> Female<br>
+                <input type="radio" name="gender" value="other"> Other 
+            
+            <p>Select your favourite coffee type:</p>
+            <input type="radio" name="cuisine" value="French"> Arabica<br>
+            <input type="radio" name="cuisine" value="Italian"> Robusta<br>
+            <input type="radio" name="cuisine" value="Spanish"> Liberica<br>
+            <input type="radio" name="cuisine" value="Arabic"> Excelsa                  
+            
+            <p>Select your favourite color:</p>
+            <input type="color" name="color"/>
+
+            <p>Type your biography below:
+            </p>
+                <textarea name="Biography" rows="10" cols="50"></textarea>
+        
+            <p>Upload your resume here:</p>
+             <input type="file" name="recipe"/>
+            
+            <p>Link the url to your resume:</p>
+            <input type="url" name="url recipe"/>
+            
+            <p>
+                <label>Message: <textarea name="message"></textarea></label>
+            </p>
+            <p>
+                <button type="reset">Clear</button>
+            </p>
+            <p>
+                <button type="submit">Send</button>
+            </p>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

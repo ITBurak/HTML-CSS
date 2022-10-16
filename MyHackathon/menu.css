@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    font-family: 'Pacifico', cursive;
+}
+
+.header{
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 0 auto;
+    background-image: url('img/coffeemenu.jpg');
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 45vw;
+    justify-content: center;
+    border-radius: 0 0 85% 85% / 30%;
+    
+}
+
+.h1{
+    margin: 0 auto;
+    padding: 0 auto;
+    font-size: 65px;
+    text-align: center;
+    position: relative;
+
+}
+#p1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    display: inline-block;
+    vertical-align: top;
+    width: 30vw;
+    padding-left: 40px;
+    margin-top: 100px;
+    color: white;
+}
+
+button{
+    margin-left: 17vw;
+    text-align: center;
+    position: relative;
+    border-radius: 50%;
+    border-color: solid black;
+    min-width: 90px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #be8f38; 
+    color: white;
+}
+
+.container_menu{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5em;
+    
+}
+  
+.menu {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+}
+  
+.menu-group-heading {
+    margin: 0;
+    padding-bottom: 1em;
+    border-bottom: 2px solid #ccc;
+}
+  
+.menu-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+    padding: 1.5em 0;
+}
+  
+.menu-item {
+    display: flex;
+}
+  
+.menu-item-image {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    object-fit: cover;
+    margin-right: 1.5em;
+}
+  
+.menu-item-text {
+    flex-grow: 1;
+}
+  
+.menu-item-heading {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+  
+.menu-item-name {
+    margin-right: 1.5em;
+}
+  
+.menu-item-description {
+    line-height: 1.6;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (min-width: 992px) {
+
+.menu {
+      font-size: 20px;
+}
+  
+.menu-group {
+      grid-template-columns: repeat(2, 1fr);
+}
+  
+.menu-item-image {
+      width: 125px;
+      height: 125px;
+} 
+}
+
+@media screen and (max-width: 1444px) {
+    #p1{
+       
+    font-size: 40px;
+    display: inline-block;
+    vertical-align: top;
+    width: 30vw;
+    padding-left: 60px;
+    margin-bottom: 15vw;
+    color: rgb(255, 255, 255);  
+    font-weight: bold; 
+}
+
+button{
+    margin-left: 5vw;
+    text-align: center;
+    position: relative;
+    border-radius: 50%;
+    border-color: solid black;
+    min-width: 90px;
+    cursor: pointer;
+}
+}
+
+
+
+
+
